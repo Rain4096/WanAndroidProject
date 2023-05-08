@@ -7,8 +7,6 @@
 /captures
 .externalNativeBuild
 .cxx
-# Gradle files
-build/
 
 # Log/OS Files
 *.log
@@ -21,7 +19,6 @@ captures/
 output.json
 
 # IntelliJ
-*.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml

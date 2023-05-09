@@ -5,13 +5,13 @@ import android.os.Bundle
 
 /**
  * @author Rain
- * @date 2023/5/9 11:23
+ * @date 2023/5/9 11:30
  * @version 1
- * @description 首页
+ * @description 欢迎页
  */
-class MainActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_welcome)
     }
 }

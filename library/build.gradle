@@ -32,7 +32,11 @@ dependencies {
     api "androidx.navigation:navigation-fragment-ktx:$nav_version"
     api "androidx.navigation:navigation-ui-ktx:$nav_version"
 
-    api "com.tencent:mmkv:1.2.16"
+    //https://github.com/Tencent/MMKV
+    api 'com.tencent:mmkv:1.2.16'
+
+    //沉浸式框架：https://github.com/gyf-dev/ImmersionBar
+    api 'com.gyf.immersionbar:immersionbar:3.0.0'
 
     api 'androidx.core:core-ktx:1.9.0'
     api 'androidx.appcompat:appcompat:1.5.1'
